@@ -2,5 +2,10 @@
 	displayBlock="true"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns="sap.m">
-		<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="430px"/>
+	<Carousel>
+		<pages>
+				<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="400px"/>
+				<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="430px"/>
+		</pages>
+	</Carousel>
 </mvc:View>
