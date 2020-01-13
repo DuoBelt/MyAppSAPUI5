@@ -5,6 +5,7 @@
 		"id": "opensap.myappsapui5",
 		"type": "application",
 		"title": "{{appTitle}}",
+		"i18n": "i18n/i18n.properties",
 		"description": "{{appDescription}}",
 		"applicationVersion": {
 			"version": "1.0.0"
@@ -48,6 +49,12 @@
 			"helloPanel": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "model/HelloPanel.json"
+			},
+				"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "opensap.myappsapui5.i18n.i18n"
+				}
 			}
 		},
 
