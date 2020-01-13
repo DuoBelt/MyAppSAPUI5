@@ -18,8 +18,8 @@
 
 		<script>
 			sap.ui.getCore().attachInit(function () {
-				sap.ui.xmlview({
-					viewName : "opensap.myappsapui5.view.App"
+				new sap.ui.core.ComponentContainer({
+					name : "opensap.myappsapui5"
 				}).placeAt("content");
 			});
 		</script>
