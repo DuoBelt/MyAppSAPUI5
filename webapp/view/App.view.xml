@@ -1,11 +1,10 @@
 <mvc:View displayBlock="true" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="opensap.myappsapui5.controller.App">
-
-								<Carousel>
-									<pages>
-										<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="400px"/>
-										<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="430px"/>
-									</pages>
-								</Carousel>
-								<Button text="{i18n>showHelloButtonText}" press="onShowHello"/>
-								<Input value="{helloPanel>/recipient/name}" description="Hello {helloPanel>/recipient/name}" valueLiveUpdate="true" width="60%"/>
+	<Carousel>
+		<pages>
+			<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="400px"/>
+			<Image src="https://upload.wikimedia.org/wikipedia/commons/0/0e/GEO_Globe_10.jpg" height="430px"/>
+		</pages>
+	</Carousel>
+	<Button text="{i18n>showHelloButtonText}" press="onShowHello"/>
+	<Input value="{helloPanel>/recipient/name}" description="Hello {helloPanel>/recipient/name}" valueLiveUpdate="true" width="60%"/>
 </mvc:View>
