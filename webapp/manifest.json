@@ -55,6 +55,10 @@
 				"settings": {
 					"bundleName": "opensap.myappsapui5.i18n.i18n"
 				}
+			},
+			"address": {
+		"type": "sap.ui.model.json.JSONModel",
+		"uri": "model/Address.json"
 			}
 		},
 
