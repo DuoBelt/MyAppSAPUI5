@@ -52,6 +52,7 @@
 										<ObjectListItem 
 										title="{Name}"
 										number="{Price}"
+										numberState="{= ${Price} > 250 ? 'Error' : 'Success'}"
 										intro="{ProductID}"
 										numberUnit="{CurrencyCode}">
 										</ObjectListItem>
