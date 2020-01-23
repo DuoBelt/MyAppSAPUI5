@@ -58,9 +58,9 @@
 											<firstStatus>
 												<ObjectStatus
 													text="{
-														parts : [
+														parts: [
 															{path : 'WeightUnit'},
-															{path: 'WeightMEasure'}
+															{path : 'WeightMeasure'}
 													],
 													formatter : '.formatter.delivery'
 													}"
